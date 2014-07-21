@@ -10,7 +10,7 @@ RUN add-apt-repository -y ppa:git-core/ppa && \
 			libmysqlclient-dev libpq-dev zlib1g-dev libyaml-dev libssl-dev \
 			libgdbm-dev libreadline-dev libncurses5-dev libffi-dev \
 			libxml2-dev libxslt-dev libcurl4-openssl-dev libicu-dev \
-			ruby2.1 ruby2.1-dev && \
+			ruby2.1 ruby2.1-dev phantomjs && \
 		gem install --no-ri --no-rdoc bundler && \
 		apt-get clean # 20140627
 
