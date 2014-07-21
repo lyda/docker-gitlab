@@ -66,7 +66,7 @@ if [ -d "/app/setup/cache" ]; then
   mv /app/setup/cache vendor/
   chown -R git:git vendor/cache
 fi
-sudo -u git -H bundle install --deployment --without development test aws
+sudo -u git -H bundle install --deployment --without aws
 
 # make sure everything in /home/git is owned by the git user
 chown -R git:git /home/git/
